@@ -20,7 +20,7 @@
 </strong>
 </p>
 
-We introduce **BEYOND DIALOGUE**,  a novel framework designed to revolutionize role-playing model training by addressing key challenges in current approaches. Unlike traditional methods that rely on predefined role profiles, which often lead to **inconsistencies and biases between profiles and dialogues**, **BEYOND DIALOGUE** introduces a unique approach by **aligning dialogues with role profile traits specific to each scenario**. This approach ensures fine-grained profile-dialogue alignment at the sentence level, **fully automated and cost-effective**. Our framework outperforms existing baselines in adhering to various role profile dimensions. For more details, please refer to the [paper](https://web3.arxiv.org/abs/2408.10903).
+We introduce **BEYOND DIALOGUE**, a novel framework designed to revolutionize role-playing model training by addressing key challenges in current approaches. Traditional methods that rely on predefined role profiles, which often lead to **inconsistencies and biases between predefined profiles and scenario dialogues**, **BEYOND DIALOGUE** introduces a unique approach by **aligning dialogues with role profile traits specific to each scenario**. This approach ensures fine-grained profile-dialogue alignment at the sentence level, **fully automated and cost-effective**. Our framework outperforms existing baselines in adhering to various role profile dimensions. For more details, please refer to the [paper](https://web3.arxiv.org/abs/2408.10903).
 
 
 ## What's New
@@ -54,7 +54,7 @@ We introduce **BEYOND DIALOGUE**,  a novel framework designed to revolutionize r
 
 | **Dataset**      | **Source**       | **Open-source** | **Multi-lingual** | **Multi-turn** | **# Roles**           | **# Sessions** | **# Turns** | **# Ave Turns** |
 |------------------|------------------|-----------------|-------------------|----------------|-----------------------|----------------|-------------|-----------------|
-| HPD          | Novel            | ✔               | ✔                 | ✔              | -                     | 1042           | 14380       | 13.8            |
+| [HPD](https://github.com/nuochenpku/Harry-Potter-Dialogue-Dataset)          | Novel            | ✔               | ✔                 | ✔              | -                     | 1042           | 14380       | 13.8            |
 | [CharacterGLM](https://github.com/thu-coai/CharacterGLM-6B) | Novel & Human & GPT | ✘           | ✘                 | ✔              | 250                   | 1034           | 16316       | 15.78           |
 | [RoleLLM](https://github.com/InteractiveNLP-Team/RoleLLM-public)      | GPT              | ✔               | ✔                 | ✘              | Zh: 5, En: 95         | -              | 23463       | -               |
 | [CharacterLLM](https://github.com/choosewhatulike/trainable-agents) | GPT              | ✔               | ✘                 | ✔              | 9                     | 1600           | 21120       | 13.2            |
