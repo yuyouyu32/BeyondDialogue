@@ -14,7 +14,7 @@
 
 <p align="center"> <strong>
 📄 <a href="https://arxiv.org/abs/2408.10903">Paper</a> ·
-📊 Dataset (upcoming) · 
+📊 <a href="https://huggingface.co/datasets/yuyouyu/BeyondDialogue">Dataset</a> ·
 🤗 Models (upcoming) ·
 🏆 Evaluation (upcoming)
 </strong>
@@ -24,7 +24,7 @@ We introduce **BEYOND DIALOGUE**, a novel framework designed to revolutionize ro
 
 
 ## What's New
-
+- **[2024/08/22]** Our [dataset](https://huggingface.co/datasets/yuyouyu/BeyondDialogue) is released.
 - **[2024/08/22]** Our [paper](https://arxiv.org/abs/2310.00746) is released.
 
 ## Why Profile-Dialogue Alignment? 🤔
@@ -49,29 +49,6 @@ We introduce **BEYOND DIALOGUE**, a novel framework designed to revolutionize ro
 
 - The left side shows the training phases, which include **role-playing dialogue, chit-chat, and profile alignment**. The profile alignment results are utilized to adjust each scenario’s dialogue profiles, eliminating training biases. 
 - On the right, the **LLM generates random scenarios and roles for multi-turn dialogues with the model**, followed by an evaluation using **objective questions (such as multiple-choice questions, judgmental questions)** to obtain quantitative metrics of the model’s role-playing capabilities.
-
-## Dataset Statistics 📊
-
-| **Dataset**      | **Source**       | **Open-source** | **Multi-lingual** | **Multi-turn** | **# Roles**           | **# Sessions** | **# Turns** | **# Ave Turns** |
-|------------------|------------------|-----------------|-------------------|----------------|-----------------------|----------------|-------------|-----------------|
-| [HPD](https://github.com/nuochenpku/Harry-Potter-Dialogue-Dataset)          | Novel            | ✔               | ✔                 | ✔              | -                     | 1042           | 14380       | 13.8            |
-| [CharacterGLM](https://github.com/thu-coai/CharacterGLM-6B) | Novel & Human & GPT | ✘           | ✘                 | ✔              | 250                   | 1034           | 16316       | 15.78           |
-| [RoleLLM](https://github.com/InteractiveNLP-Team/RoleLLM-public)      | GPT              | ✔               | ✔                 | ✘              | Zh: 5, En: 95         | -              | 23463       | -               |
-| [CharacterLLM](https://github.com/choosewhatulike/trainable-agents) | GPT              | ✔               | ✘                 | ✔              | 9                     | 1600           | 21120       | 13.2            |
-| [PIPPA](https://huggingface.co/datasets/PygmalionAI/PIPPA?not-for-all-audiences=true)        | Human            | ✔               | ✘                 | ✔              | 1254                  | 26000          | 1049015     | 40.34           |
-| [ChatHaruhi](https://huggingface.co/datasets/silk-road/ChatHaruhi-54K-Role-Playing-Dialogue)  | Novel & GPT      | ✔               | ✘                 | ✔              | 32                    | 54726          | 67660       | 1.23            |
-| [WIKIROLE](https://github.com/OFA-Sys/Ditto)     | GPT              | ✔               | ✔                 | ✔              | Zh: 3184, En: 3902    | 7086           | 36164       | 5.1             |
-| **Ours**         | Novel            | ✔               | ✔                 | ✔              | Zh: 280, En: 31       | 3552           | 23247       | 6.54            |
-
->**Note:** In the HPD dataset, the number of roles is denoted as "-" since it is exclusively centered on Harry Potter, with other characters interacting with him. RoleLLM is single-turn, so # Sessions and # Avg Turns are marked as "-".
-
-- We extracted 280 Chinese roles and 31 English roles from 123 Chinese and English novels or scripts. In total, 3,552 sessions of scenario dialogues were obtained, comprising 23,247 dialogue turns, all drawn from authentic dialogues in novels or scripts.
-
-- From the table, it can be seen that our dataset is entirely sourced from novels. However, this source provides richer and more authentic dialogue scenarios. Additionally, compared to other datasets, we have the highest number of real roles and the most sessions of authentic dialogues.
-
-![](./assets/dataset_statistic.png)
-
-![](./assets/ERP_statistic.png)
 
 ## Experimental Results 📈
 
