@@ -14,7 +14,7 @@
 
 <p align="center"> <strong>
 📄 <a href="https://arxiv.org/abs/2408.10903">Paper</a> ·
-📊 <a href="https://huggingface.co/datasets/yuyouyu/BeyondDialogue">Dataset</a> ·
+🗂️ <a href="https://huggingface.co/datasets/yuyouyu/BeyondDialogue">Dataset</a> ·
 🤗 Models (upcoming) ·
 🏆 Evaluation (upcoming)
 </strong>
