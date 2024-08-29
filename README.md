@@ -13,14 +13,14 @@
 </p>
 
 <p align="center"> <strong>
-📄 <a href="https://web3.arxiv.org/abs/2408.10903">Paper</a> ·
+📄 <a href="https://arxiv.org/abs/2408.10903">Paper</a> ·
 📊 Dataset (upcoming) · 
 🤗 Models (upcoming) ·
 🏆 Evaluation (upcoming)
 </strong>
 </p>
 
-We introduce **BEYOND DIALOGUE**, a novel framework designed to revolutionize role-playing model training by addressing key challenges in current approaches. Traditional methods that rely on predefined role profiles, which often lead to **inconsistencies and biases between predefined profiles and scenario dialogues**, **BEYOND DIALOGUE** introduces a unique approach by **aligning dialogues with role profile traits specific to each scenario**. This approach ensures fine-grained profile-dialogue alignment at the sentence level, **fully automated and cost-effective**. Our framework outperforms existing baselines in adhering to various role profile dimensions. For more details, please refer to the [paper](https://web3.arxiv.org/abs/2408.10903).
+We introduce **BEYOND DIALOGUE**, a novel framework designed to revolutionize role-playing model training by addressing key challenges in current approaches. Traditional methods that rely on predefined role profiles, which often lead to **inconsistencies and biases between predefined profiles and scenario dialogues**, **BEYOND DIALOGUE** introduces a unique approach by **aligning dialogues with role profile traits specific to each scenario**. This approach ensures fine-grained profile-dialogue alignment at the sentence level, **fully automated and cost-effective**. Our framework outperforms existing baselines in adhering to various role profile dimensions. For more details, please refer to the [paper](https://arxiv.org/abs/2408.10903).
 
 
 ## What's New
