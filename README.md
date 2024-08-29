@@ -24,7 +24,7 @@ We introduce **BEYOND DIALOGUE**, a novel framework designed to revolutionize ro
 
 
 ## What's New
-- **[2024/08/22]** Our [dataset](https://huggingface.co/datasets/yuyouyu/BeyondDialogue) is released.
+- **[2024/08/29]** Our [dataset](https://huggingface.co/datasets/yuyouyu/BeyondDialogue) is released.
 - **[2024/08/22]** Our [paper](https://arxiv.org/abs/2310.00746) is released.
 
 ## Why Profile-Dialogue Alignment? 🤔
@@ -72,7 +72,7 @@ We introduce **BEYOND DIALOGUE**, a novel framework designed to revolutionize ro
 ```bibtex
 @article{yu2024beyond,
   title   = {BEYOND DIALOGUE: A Profile-Dialogue Alignment Framework Towards General Role-Playing Language Model},
-  author  = {Yu, Yeyong and Yu, Rusheng and Wei, Haojie and Zhang, Zhanqiu and Qian, Quan},
+  author  = {Yu, Yeyong and Yu, Runsheng and Wei, Haojie and Zhang, Zhanqiu and Qian, Quan},
   year    = {2024},
   journal = {arXiv preprint arXiv:2408.10903},
 }

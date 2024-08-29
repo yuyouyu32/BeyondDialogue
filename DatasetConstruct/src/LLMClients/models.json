@@ -1,0 +1,416 @@
+{
+    "gpt-3.5-turbo": {
+        "model": "OpenAi",
+        "maxToken": 4096,
+        "price": {
+            "currency": "USD",
+            "prompt": 0.002,
+            "complete": 0.002
+        },
+        "support_stream": true
+    },
+    "gpt-4": {
+        "model": "OpenAi",
+        "maxToken": 8192,
+        "price": {
+            "currency": "USD",
+            "prompt": 0.03,
+            "complete": 0.06
+        },
+        "support_stream": true
+    },
+    "gpt-4-32k": {
+        "model": "OpenAi",
+        "maxToken": 32768,
+        "price": {
+            "currency": "USD",
+            "prompt": 0.06,
+            "complete": 0.12
+        },
+        "support_stream": true
+    },
+    "dalle-e3": {
+        "model": "OpenAi",
+        "maxToken": 1024,
+        "alias": "OpenAI文生图",
+        "price": {
+            "currency": "USD",
+            "prompt": 0,
+            "complete": 40
+        },
+        "support_stream": false
+    },
+    "text-davinci-003": {
+        "model": "OpenAi",
+        "maxToken": 1024,
+        "price": {
+            "currency": "USD",
+            "prompt": 0.02,
+            "complete": 0.02
+        },
+        "support_stream": false
+    },
+    "text-davinci-002": {
+        "model": "OpenAi",
+        "maxToken": 1024,
+        "price": {
+            "currency": "USD",
+            "prompt": 0.02,
+            "complete": 0.02
+        },
+        "support_stream": false
+    },
+    "gpt-4-turbo": {
+        "model": "OpenAi",
+        "maxToken": 128000,
+        "price": {
+            "currency": "USD",
+            "prompt": 0.01,
+            "complete": 0.03
+        },
+        "support_stream": true
+    },
+    "gpt-4v": {
+        "model": "OpenAi",
+        "maxToken": 128000,
+        "price": {
+            "currency": "USD",
+            "prompt": 0.01,
+            "complete": 0.03
+        },
+        "support_stream": true
+    },
+    "chat-bison": {
+        "model": "Google",
+        "maxToken": 1024,
+        "alias": "Bard",
+        "support_stream": true
+    },
+    "gemini-pro": {
+        "model": "Google",
+        "maxToken": 32000,
+        "support_stream": true
+    },
+    "gemini-pro-vision": {
+        "model": "Google",
+        "maxToken": 16000,
+        "support_stream": true
+    },
+    "claude-3-opus": {
+        "model": "Google",
+        "maxToken": 200000,
+        "price": {
+            "currency": "USD",
+            "prompt": 0.015,
+            "complete": 0.075
+        },
+        "support_stream": true
+    },
+    "lightspeed_v1_rp": {
+        "model": "Lightspeed",
+        "maxToken": 1024,
+        "support_stream": true
+    },
+    "lightspeed_v1": {
+        "model": "Lightspeed",
+        "maxToken": 1024,
+        "support_stream": true
+    },
+    "lightspeed_v1_metaai": {
+        "model": "Lightspeed",
+        "maxToken": 1024,
+        "support_stream": true,
+        "alias": "GraceAI"
+    },
+    "AIPet": {
+        "model": "Lightspeed",
+        "maxToken": 1024,
+        "support_stream": true
+    },
+    "AIPet-7B-SFT-240331-32k": {
+        "model": "Lightspeed",
+        "maxToken": 1024,
+        "support_stream": true
+    },
+    "gpt-plus": {
+        "model": "OpenAiPlus",
+        "maxToken": 128000,
+        "price": {
+            "currency": "USD",
+            "prompt": 0.03,
+            "complete": 0.06
+        },
+        "alias": "多模态GPT",
+        "support_stream": true
+    },
+    "hunyuan": {
+        "model": "Hunyuan",
+        "maxToken": 16000,
+        "alias": "混元",
+        "support_stream": true
+    },
+    "hunyuan-13B": {
+        "model": "Hunyuan",
+        "maxToken": 16000,
+        "alias": "混元13B",
+        "support_stream": true
+    },
+    "hunyuan-vision": {
+        "model": "Hunyuan",
+        "maxToken": 16000,
+        "alias": "混元",
+        "support_stream": true
+    },
+    "claude-3": {
+        "model": "Claude",
+        "maxToken": 204800,
+        "support_stream": true,
+        "price": {
+            "currency": "USD",
+            "prompt": 0.008,
+            "complete": 0.024
+        }
+    },
+    "qwen": {
+        "model": "Qwen",
+        "maxToken": 1024,
+        "alias": "通义千问",
+        "support_stream": true
+    },
+    "qwen7b": {
+        "model": "Qwen",
+        "maxToken": 1024,
+        "alias": "通义千问7B",
+        "support_stream": false
+    },
+    "XVERSE-13B-2": {
+        "model": "Xverse",
+        "maxToken": 8192,
+        "alias": "元象13B",
+        "support_stream": true
+    },
+    "XVERSE-65B-2": {
+        "model": "Xverse",
+        "maxToken": 16000,
+        "alias": "元象65B",
+        "support_stream": true
+    },
+    "XVERSE-13B-LONGCONTEXT": {
+        "model": "Xverse",
+        "maxToken": 256000,
+        "alias": "元象13B长文本",
+        "support_stream": true
+    },
+    "XVERSE-65B-2-16K": {
+        "model": "Xverse",
+        "maxToken": 16000,
+        "alias": "元象65B-16K",
+        "support_stream": true
+    },
+    "moonshot-v1-8k": {
+        "model": "Kimi",
+        "maxToken": 8192,
+        "price": {
+            "currency": "RMB",
+            "prompt": 0.012,
+            "complete": 0.012
+        },
+        "alias": "kimi8k",
+        "support_stream": true
+    },
+    "moonshot-v1-32k": {
+        "model": "Kimi",
+        "maxToken": 32000,
+        "price": {
+            "currency": "RMB",
+            "prompt": 0.024,
+            "complete": 0.024
+        },
+        "alias": "kimi32k",
+        "support_stream": true
+    },
+    "moonshot-v1-128k": {
+        "model": "Kimi",
+        "maxToken": 128000,
+        "price": {
+            "currency": "RMB",
+            "prompt": 0.06,
+            "complete": 0.06
+        },
+        "alias": "kimi128k",
+        "support_stream": true
+    },
+    "Baichuan2-Turbo-192k": {
+        "model": "Baichuan",
+        "maxToken": 196608,
+        "support_stream": true
+    },
+    "Baichuan2-Turbo": {
+        "model": "Baichuan",
+        "maxToken": 4096,
+        "support_stream": true
+    },
+    "Baichuan-NPC-Lite": {
+        "model": "Baichuan",
+        "maxToken": 4096,
+        "support_stream": true
+    },
+    "Baichuan-NPC-Turbo": {
+        "model": "Baichuan",
+        "maxToken": 4096,
+        "support_stream": true
+    },
+    "BaichuanCharaterTurbo": {
+        "model": "Baichuan",
+        "maxToken": 1024,
+        "support_stream": true
+    },
+    "llama-7b": {
+        "model": "Llama",
+        "maxToken": 1024,
+        "support_stream": false
+    },
+    "chinese-llama2-13b": {
+        "model": "Llama",
+        "maxToken": 16384,
+        "support_stream": false
+    },
+    "moss": {
+        "model": "Moss",
+        "maxToken": 1024,
+        "alias": "复旦大学",
+        "support_stream": false
+    },
+    "abab5-chat": {
+        "model": "Minimax",
+        "maxToken": 4096,
+        "price": {
+            "currency": "RMB",
+            "prompt": 0.015,
+            "complete": 0.015
+        },
+        "alias": "Minimax",
+        "support_stream": true
+    },
+    "ERNIE-Bot": {
+        "model": "Baidu",
+        "maxToken": 8000,
+        "price": {
+            "currency": "RMB",
+            "prompt": 0.012,
+            "complete": 0.012
+        },
+        "alias": "文心一言",
+        "support_stream": true
+    },
+    "ernievilg": {
+        "model": "Baidu",
+        "maxToken": 200,
+        "price": {
+            "currency": "RMB",
+            "prompt": 0,
+            "complete": 20
+        },
+        "alias": "文心一格",
+        "support_stream": false
+    },
+    "xfSpark": {
+        "model": "Xunfei",
+        "maxToken": 4096,
+        "price": {
+            "currency": "RMB",
+            "prompt": 0.012,
+            "complete": 0.012
+        },
+        "alias": "星火认知",
+        "support_stream": true
+    },
+    "xfSpark2": {
+        "model": "Xunfei",
+        "maxToken": 4096,
+        "price": {
+            "currency": "RMB",
+            "prompt": 0.012,
+            "complete": 0.012
+        },
+        "alias": "星火认知2.0",
+        "support_stream": true
+    },
+    "deepseek-chat": {
+        "model": "deepseek",
+        "maxToken": 32896,
+        "price": {
+            "currency": "RMB",
+            "prompt": 0.001,
+            "complete": 0.002
+        },
+        "alias": "deepseek-v2",
+        "support_stream": true
+    },
+    "main": {
+        "model": "gzclient",
+        "maxToken": 32896,
+        "alias": "main-gz",
+        "support_stream": false
+    },
+    "Qwen1.5-110B-Chat": {
+        "model": "Qwen",
+        "maxToken": 32896,
+        "alias": "通义千问1.5-110B",
+        "support_stream": false
+    },
+    "gpt-4o": {
+        "model": "OpenAi",
+        "maxToken": 128000,
+        "price": {
+            "currency": "USD",
+            "prompt": 0.005,
+            "complete": 0.015
+        },
+        "support_stream": true
+    },
+    "yi-large-preview":
+    {
+        "model": "Yi",
+        "maxToken": 16384,
+        "price": {
+            "currency": "RMB",
+            "prompt": 0.025,
+            "complete": 0.025
+        },
+        "support_stream": true
+    },
+    "yi-large-turbo":
+    {
+        "model": "Yi",
+        "maxToken": 16384,
+        "price": {
+            "currency": "RMB",
+            "prompt": 0.012,
+            "complete": 0.012
+        },
+        "support_stream": true
+    },
+    "Baichuan4":
+    {
+        "model": "Baichuan4",
+        "maxToken": 16384,
+        "price": {
+            "currency": "RMB",
+            "prompt": 0.1,
+            "complete": 0.1
+        },
+        "support_stream": true
+    },
+    "gpt-4o-mini":
+    {
+        "model": "OpenAi",
+        "maxToken": 128000,
+        "price": {
+            "currency": "USD",
+            "prompt": 0.00015,
+            "complete": 0.0006
+        },
+        "support_stream": true
+    }
+}
