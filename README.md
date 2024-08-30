@@ -99,9 +99,7 @@ We use objective questions to assess eight dimensions: Character, Style, Emotion
   title   = {BEYOND DIALOGUE: A Profile-Dialogue Alignment Framework Towards General Role-Playing Language Model},
   author  = {Yu, Yeyong and Yu, Runsheng and Wei, Haojie and Zhang, Zhanqiu and Qian, Quan},
   year    = {2024},
-  journal = {arXiv preprint arXiv:2408.10903
-        
-        },
+  journal = {arXiv preprint arXiv:2408.10903},
 }
 ```
 
