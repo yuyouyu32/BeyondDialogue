@@ -81,7 +81,7 @@ We use objective questions to assess eight dimensions: Character, Style, Emotion
 
 ![](./assets/align_ablation.png)
 
-## Non-Cherry-Picked Cases 🍒
+## Non-Cherry-Picked Cases 🔍
 
 ![](./assets/case_mistral.png)
 ![](./assets/case_qwen.png)
