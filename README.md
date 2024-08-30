@@ -15,7 +15,7 @@
 <p align="center"> <strong>
 📄 <a href="https://arxiv.org/abs/2408.10903">Paper</a> ·
 🗂️ <a href="https://huggingface.co/datasets/yuyouyu/BeyondDialogue">Dataset</a> ·
-🤗 Models (upcoming) ·
+🤗 <a href="https://huggingface.co/collections/yuyouyu/role-playing-bd-66d152b7daa6402d561b42fa">Models</a> ·
 🏆 <a href="https://github.com/yuyouyu32/BeyondDialogue/tree/main/AutoRPEval">Evaluation</a>
 </strong>
 </p>
@@ -24,7 +24,9 @@ We introduce **BEYOND DIALOGUE**, a novel framework designed to revolutionize ro
 
 
 ## What's New
-- **[2024/08/29]** **Our [dataset construction](https://github.com/yuyouyu32/BeyondDialogue/tree/main/DatasetConstruct) and [evaluation](https://huggingface.co/datasets/yuyouyu/BeyondDialogue) `code` is released.**
+
+- **[2024/08/30]** **Our [models](https://huggingface.co/collections/yuyouyu/role-playing-bd-66d152b7daa6402d561b42fa) is released.**
+- **[2024/08/29]** **Our [dataset construction](https://github.com/yuyouyu32/BeyondDialogue/tree/main/DatasetConstruct) and [evaluation](https://huggingface.co/datasets/yuyouyu/BeyondDialogue) `code` are released.**
 - **[2024/08/29]** **Our [dataset](https://huggingface.co/datasets/yuyouyu/BeyondDialogue) is released.**
 - **[2024/08/22]** **Our [paper](https://arxiv.org/abs/2310.00746) is released.**
 
