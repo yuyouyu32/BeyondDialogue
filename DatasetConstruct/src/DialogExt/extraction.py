@@ -100,13 +100,13 @@ def _parse_config(config: Dict[str, str]) -> Tuple[Union[OpenAIClient, LLMChain]
             llm = ChatOpenAI(
                 model_name = config['model'],
                 base_url='https://api.deepseek.com',
-                api_key='sk-6ff66dcc5a424a18bd5b06c7d1930583'
+                api_key= os.environ.get('DEEPSEEK_API_KEY', 'sk-xxxx')
             )
         else:
             llm = ChatOpenAI(
                 model_name = config['model'],
-                base_url = 'http://api-skynetyu.woa.com/v1/chat/completions',
-                api_key = 'shediaoNpc#2023@LSTC',
+                base_url = os.environ.get('OPENAI_BASE_URL', 'http://api-xxxxx'),
+                api_key = os.environ.get('OPENAI_API_KEY', 'sk-xxxx')
                 )
         chain = create_extraction_chain(llm, schema)
         return chain, None
