@@ -25,6 +25,7 @@ We introduce **BEYOND DIALOGUE**, a novel framework designed to revolutionize ro
 
 ## What's New
 
+- **[2025/05/15]** **Congratulations on your paper being accepted to ACL 2025 Main! 🎉**
 - **[2024/08/30]** **Our [models](https://huggingface.co/collections/yuyouyu/role-playing-bd-66d152b7daa6402d561b42fa) are released.**
 - **[2024/08/29]** **Our [dataset construction](https://github.com/yuyouyu32/BeyondDialogue/tree/main/DatasetConstruct) and [evaluation](https://huggingface.co/datasets/yuyouyu/BeyondDialogue) `code` are released.**
 - **[2024/08/29]** **Our [dataset](https://huggingface.co/datasets/yuyouyu/BeyondDialogue) is released.**
