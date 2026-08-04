@@ -13,7 +13,7 @@
 </p>
 
 <p align="center"> <strong>
-📄 <a href="https://arxiv.org/abs/2408.10903">Paper</a> ·
+📄 <a href="https://aclanthology.org/2025.acl-long.586/">Paper</a> ·
 🗂️ <a href="https://huggingface.co/datasets/yuyouyu/BeyondDialogue">Dataset</a> ·
 🤗 <a href="https://huggingface.co/collections/yuyouyu/role-playing-bd-66d152b7daa6402d561b42fa">Models</a> ·
 🏆 <a href="https://github.com/yuyouyu32/BeyondDialogue/tree/main/AutoRPEval">Evaluation</a>
@@ -98,11 +98,12 @@ We use objective questions to assess eight dimensions: Character, Style, Emotion
 **Please cite our work if you found the resources in this repository useful:**
 
 ```bibtex
-@article{yu2024beyond,
-  title   = {BEYOND DIALOGUE: A Profile-Dialogue Alignment Framework Towards General Role-Playing Language Model},
-  author  = {Yu, Yeyong and Yu, Runsheng and Wei, Haojie and Zhang, Zhanqiu and Qian, Quan},
-  year    = {2024},
-  journal = {arXiv preprint arXiv:2408.10903},
+@inproceedings{yu2025beyond,
+  title={Beyond dialogue: A profile-dialogue alignment framework towards general role-playing language model},
+  author={Yu, Yeyong and Yu, Runsheng and Wei, Haojie and Zhang, Zhanqiu and Qian, Quan},
+  booktitle={Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages={11992--12022},
+  year={2025}
 }
 ```
 
